@@ -1,0 +1,9 @@
+# render.yaml
+services:
+  - type: web
+    name: backend
+    env: node
+    plan: free
+    region: ohio
+    buildCommand: npm install
+    startCommand: npm run dev

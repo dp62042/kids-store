@@ -1,0 +1,16 @@
+@import 'tailwindcss';
+
+@tailwind utilities;
+
+body {
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+.select-animate {
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.select-animate.active {
+  transform: scale(1.05);
+  opacity: 0.8;
+}
