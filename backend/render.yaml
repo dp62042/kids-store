@@ -6,4 +6,4 @@ services:
     plan: free
     region: ohio
     buildCommand: npm install
-    startCommand: npm run dev
+    startCommand: node server.js
